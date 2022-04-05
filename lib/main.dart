@@ -10,9 +10,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       home: SafeArea(
         child: Scaffold(
+          appBar: AppBar(
+            title: Text("AppMobile"),
+          ),
           body: SignUp(),
         ),
       ),
