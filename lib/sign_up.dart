@@ -40,7 +40,7 @@ class FormSignUp extends State<SignUp> {
             children: <Widget>[
               _allSB(20),
               Center(
-                child: _txtSignUp("SIGN UP"),
+                child: _txtSignUp("SIGN"),
               ),
               _allSB(20),
               _txtContent(
